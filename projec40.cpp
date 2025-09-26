@@ -48,8 +48,19 @@ int main()
 
         // ===== Abdullah: Premium Fare Calculation or Invalid Input =====
         // (Abdullah write your code here)
-
-
+        else if (choice == 2)
+           {  
+            totalFare = baseFarePremium + (distance * costPerKmPremium);
+                cout << "\n--- Premium Ride ---" << endl;
+                 cout   cout << "Distance Fare: RM " << distance * costPerKmPremium << endl;
+                cout << "--------------------------" << endl;
+                cout << "Total Fare: RM " << totalFare << endl;
+                }
+               else
+                 {
+                    cout << "Invalid choice! Please enter 1 or 2." << endl;
+                     
+                }
 
       // Ask user if they want to repeat
         char again;
