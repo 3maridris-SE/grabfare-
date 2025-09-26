@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Define fares for each ride type
     bool repeat = true;
 
     while (repeat == true)
@@ -17,55 +16,3 @@ int main()
 
         double distance, totalFare;
         int choice;
-
-        cout << "=== Grab Ride Fare Calculator ===" << endl;
-        cout << "Choose Ride Type:" << endl;
-        cout << "1. Economy" << endl;
-        cout << "2. Premium" << endl;
-        cout << "Enter choice (1 or 2): ";
-        cin >> choice;
-
-        cout << "Enter distance (in km): ";
-        cin >> distance;
-
-        cout << fixed << setprecision(2);
-
-        if (choice == 1)
-        {
-            totalFare = baseFareEconomy + (distance * costPerKmEconomy);
-            cout << "\n--- Economy Ride ---" << endl;
-            cout << "Base Fare: RM " << baseFareEconomy << endl;
-            cout << "Distance Fare: RM " << distance * costPerKmEconomy << endl;
-            cout << "--------------------------" << endl;
-            cout << "Total Fare: RM " << totalFare << endl;
-        }
-        else if (choice == 2)
-        {
-            totalFare = baseFarePremium + (distance * costPerKmPremium);
-            cout << "\n--- Premium Ride ---" << endl;
-            cout << "Base Fare: RM " << baseFarePremium << endl;
-            cout << "Distance Fare: RM " << distance * costPerKmPremium << endl;
-            cout << "--------------------------" << endl;
-            cout << "Total Fare: RM " << totalFare << endl;
-        }
-        else
-        {
-            cout << "Invalid choice! Please enter 1 or 2." << endl;
-        }
-
-        // Ask user if they want to repeat
-        char again;
-        cout << "\nDo you want to calculate another fare? (y/n): ";
-        cin >> again;
-
-        if (again == 'n' || again == 'N')
-        {
-            repeat = false;
-            cout << "\nThank you for using Grab Ride Fare Calculator!" << endl;
-        }
-
-        cout << endl;
-    }
-
-    return 0;
-}
