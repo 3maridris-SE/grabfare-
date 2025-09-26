@@ -27,7 +27,15 @@ int main()
 
         // ===== Alaaeldin: Economy Fare Calculation =====
         // (Alaaeldin write your code here)
-        
+        if (choice == 1)
+        {
+            totalFare = baseFareEconomy + (distance * costPerKmEconomy);
+            cout << "\n--- Economy Ride ---" << endl;
+            cout << "Base Fare: RM " << baseFareEconomy << endl;
+            cout << "Distance Fare: RM " << distance * costPerKmEconomy << endl;
+            cout << "--------------------------" << endl;
+            cout << "Total Fare: RM " << totalFare << endl;
+        }
 
 
         // ===== Abdullah: Premium Fare Calculation or Invalid Input =====
