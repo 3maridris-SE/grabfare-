@@ -16,3 +16,24 @@ int main()
 
         double distance, totalFare;
         int choice;
+
+
+
+
+         // ===== Rayan: User Interface & Input =====
+        // (Rayan write your code here)
+
+
+
+        // ===== Alaaeldin: Economy Fare Calculation =====
+        // (Alaaeldin write your code here)
+        
+
+
+        // ===== Abdullah: Premium Fare Calculation or Invalid Input =====
+        // (Abdullah write your code here)
+
+
+
+        // ===== Mohammad: Repeat or Exit Program =====
+        // (Mohammad write your code here)
