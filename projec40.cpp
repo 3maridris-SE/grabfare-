@@ -51,5 +51,19 @@ int main()
 
 
 
-        // ===== Mohammad: Repeat or Exit Program =====
-        // (Mohammad write your code here)
+      // Ask user if they want to repeat
+        char again;
+        cout << "\nDo you want to calculate another fare? (y/n): ";
+        cin >> again;
+
+        if (again == 'n' || again == 'N')
+        {
+            repeat = false;
+            cout << "\nThank you for using Grab Ride Fare Calculator!" << endl;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
