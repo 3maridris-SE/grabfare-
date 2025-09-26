@@ -18,7 +18,9 @@ int main()
         int choice;
 
 
-
+// ===== Rayan: User Interface & Input =====
+        // (Rayan paste your code here)
+    
 
          cout << "=== Grab Ride Fare Calculator ===" << endl;
         cout << "Choose Ride Type:" << endl;
@@ -35,6 +37,8 @@ int main()
 
         // ===== Alaaeldin: Economy Fare Calculation =====
         // (Alaaeldin write your code here)
+      
+        
         if (choice == 1)
         {
             totalFare = baseFareEconomy + (distance * costPerKmEconomy);
@@ -48,6 +52,8 @@ int main()
 
         // ===== Abdullah: Premium Fare Calculation or Invalid Input =====
         // (Abdullah write your code here)
+       
+        
         else if (choice == 2)
            {  
             totalFare = baseFarePremium + (distance * costPerKmPremium);
@@ -62,7 +68,12 @@ int main()
                      
                 }
 
-      // Ask user if they want to repeat
+
+        
+              // ===== Mohammad: Repeat or Exit Program =====
+       // (Mohammad paste your code here)
+     
+        
         char again;
         cout << "\nDo you want to calculate another fare? (y/n): ";
         cin >> again;
