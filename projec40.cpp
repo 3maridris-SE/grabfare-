@@ -20,9 +20,17 @@ int main()
 
 
 
-         // ===== Rayan: User Interface & Input =====
-        // (Rayan write your code here)
+         cout << "=== Grab Ride Fare Calculator ===" << endl;
+        cout << "Choose Ride Type:" << endl;
+        cout << "1. Economy" << endl;
+        cout << "2. Premium" << endl;
+        cout << "Enter choice (1 or 2): ";
+        cin >> choice;
 
+        cout << "Enter distance (in km): ";
+        cin >> distance;
+
+        cout << fixed << setprecision(2);
 
 
         // ===== Alaaeldin: Economy Fare Calculation =====
